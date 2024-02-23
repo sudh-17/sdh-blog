@@ -2,7 +2,7 @@
 export default {
   load() {
     return {
-      hello: 'stupid world'
+      hello: 'stupid world 33'
     }
   }
 }
