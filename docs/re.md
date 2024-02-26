@@ -11,9 +11,7 @@ editLink: true
 
 
 ## 图片
-![alt text](images/image.png)
 
-![alt text](/duyi.png)
 
 ## 表格
 | Tables        |      Are      |  Cool |
@@ -90,7 +88,7 @@ Guide content
 <script setup>
 import { ref } from 'vue'
 import { useData } from 'vitepress'
-import TextPanel from './components/TextPanel.vue'
+// import TextPanel from './.vitepress/components/TextPanel.vue'
 import { data } from './data/example.data.js'
 
 const count = ref(100)
