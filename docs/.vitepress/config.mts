@@ -15,7 +15,7 @@ export default defineConfig({
     ],
 
     // logo 以及logo 标题
-    logo: '/duyi.png',
+    logo: '/ico.png',
     siteTitle: '树袋熊的博客',
 
     // 页脚
