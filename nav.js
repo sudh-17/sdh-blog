@@ -28,7 +28,7 @@ fs.writeFileSync(
   `export default ${JSON.stringify(sidebar, null, 2)}`
 )
 
-function createNav(filepath, filename) {
+function createNav(filepath, filename) { // 1-基础知识
   let dir = fs.readdirSync(filepath)
   let items = []
   dir.forEach(it => {

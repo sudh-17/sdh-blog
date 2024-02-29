@@ -11,6 +11,10 @@ export default [
         "link": "/1-基础知识/JavaScript/EsModule的工作原理.md"
       },
       {
+        "text": "nodejs",
+        "link": "/1-基础知识/nodejs/使用全局cmd命令执行node小程序.md"
+      },
+      {
         "text": "uu",
         "link": "/1-基础知识/uu"
       }
@@ -25,13 +29,18 @@ export default [
       },
       {
         "text": "算法",
-        "link": "/2-进阶技能/算法/爬楼梯.md"
+        "link": "/2-进阶技能/算法/循环转递归的公式.md"
       }
     ]
   },
   {
     "text": "框架与库",
-    "items": []
+    "items": [
+      {
+        "text": "什么是渐进式框架",
+        "link": "/3-框架与库/什么是渐进式框架"
+      }
+    ]
   },
   {
     "text": "项目",
