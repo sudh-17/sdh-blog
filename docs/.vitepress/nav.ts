@@ -25,7 +25,7 @@ export default [
     "items": [
       {
         "text": "手写编程",
-        "link": "/2-进阶技能/手写编程/手写防抖.md"
+        "link": "/2-进阶技能/手写编程/不借助apply或bind实现call.md"
       },
       {
         "text": "算法",

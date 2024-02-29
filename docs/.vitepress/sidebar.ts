@@ -49,6 +49,10 @@ export default {
       "text": "手写编程",
       "items": [
         {
+          "text": "不借助apply或bind实现call",
+          "link": "/2-进阶技能/手写编程/不借助apply或bind实现call"
+        },
+        {
           "text": "手写防抖",
           "link": "/2-进阶技能/手写编程/手写防抖"
         }
