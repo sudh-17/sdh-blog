@@ -11,7 +11,7 @@ export default defineConfig({
     sidebar,
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/sudh-17/sdh-blog' }
     ],
 
     // logo 以及logo 标题
@@ -21,7 +21,7 @@ export default defineConfig({
     // 页脚
     footer: {
       message:
-        'Released under the <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.',
+        'Released under the <a href="https://github.com/sudh-17/sdh-blog/blob/main/LICENSE">MIT License</a>.',
       copyright:
         'Copyright © 2019-present <a href="https://github.com/yyx990803">Evan You</a>'
     }
