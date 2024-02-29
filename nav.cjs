@@ -1,7 +1,7 @@
-// console.log(1212, d)
+// import fs from 'fs'
+// import path from 'path'
 const fs = require('fs')
 const path = require('path')
-// console.log(fs, 233)
 // 读取文件
 const docs = fs.readdirSync(path.join(__dirname, './docs'), 'utf-8')
 // 读取目录 docs
