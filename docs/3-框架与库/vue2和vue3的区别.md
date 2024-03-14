@@ -7,6 +7,7 @@ vue2 和 vue3 的区别
 - vue3 对ts 支持更加友好，因为 vue3 本身就是基于 ts 重写的，因此对 ts 的支持更加友好。开发者可以更好的利用 ts 来进行类型检查和推断。
 
 - vue3 性能更好，因为 vue3 的响应式模块是基于 Proxy 的，而 vue2 使用的 Object.defineProperty。首先proxy的功能更全面，它除了能拦截setter和getter之外，还能拦截处理数组的增删函数，因此在处理数组的时候比后者更有优势。其次 Proxy 定义的响应式属性不会想 Object.defineProperty 那样会给所有属性遍历一次，而是在需要用到的时候才会去调用，因此执行性能好一些。 但是 Proxy 目前兼容性不好，因为一些浏览器不支持。
+defineProperty 虽然兼容性好，但是它只能劫持对象的属性，因此需要对每个属性进行遍历，这会带来性能上的损耗。而 Proxy 可以直接代理对象，因此不需要对每个属性进行遍历。并且proxy 可以拦截的方法不仅仅是setter 和 getter，它还可以拦截更多的操作，比如 deleteProperty, has, ownKeys 等。因此 proxy 比 defineProperty 更加灵活。
 
 - vue3 双向绑定的优化，vue2 双绑(v-model) 只能作用在一个属性上。而 vue3 支持多个属性，比如 v-model:name="name" v-model:age="age"。
 

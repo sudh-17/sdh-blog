@@ -29,7 +29,7 @@ export default [
       },
       {
         "text": "浏览器",
-        "link": "/2-进阶技能/浏览器/事件循环.md"
+        "link": "/2-进阶技能/浏览器/Post和Get请求的区别.md"
       },
       {
         "text": "算法",
@@ -40,6 +40,10 @@ export default [
   {
     "text": "框架与库",
     "items": [
+      {
+        "text": "vue2和vue3的区别",
+        "link": "/3-框架与库/vue2和vue3的区别"
+      },
       {
         "text": "什么是渐进式框架",
         "link": "/3-框架与库/什么是渐进式框架"
@@ -52,7 +56,16 @@ export default [
   },
   {
     "text": "工具",
-    "items": []
+    "items": [
+      {
+        "text": "prettier 的使用",
+        "link": "/5-工具/prettier 的使用"
+      },
+      {
+        "text": "vscode",
+        "link": "/5-工具/vscode/vscode 使用表达式生成html.md"
+      }
+    ]
   },
   {
     "text": "其他",
