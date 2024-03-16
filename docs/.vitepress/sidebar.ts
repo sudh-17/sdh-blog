@@ -65,6 +65,10 @@ export default {
           "link": "/2-进阶技能/手写编程/不借助apply或bind实现call"
         },
         {
+          "text": "手写pinia",
+          "link": "/2-进阶技能/手写编程/手写pinia"
+        },
+        {
           "text": "手写迭代器、让对象可遍历",
           "link": "/2-进阶技能/手写编程/手写迭代器、让对象可遍历"
         },
