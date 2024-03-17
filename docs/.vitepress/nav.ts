@@ -41,6 +41,10 @@ export default [
     "text": "框架与库",
     "items": [
       {
+        "text": "vue-router 的实现原理",
+        "link": "/3-框架与库/vue-router 的实现原理"
+      },
+      {
         "text": "vue2和vue3的区别",
         "link": "/3-框架与库/vue2和vue3的区别"
       },

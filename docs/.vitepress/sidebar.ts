@@ -27,6 +27,10 @@ export default {
           "link": "/1-基础知识/JavaScript/EsModule的工作原理"
         },
         {
+          "text": "new Number(1) 和 Number(1) 的区别",
+          "link": "/1-基础知识/JavaScript/new Number(1) 和 Number(1) 的区别"
+        },
+        {
           "text": "什么是原型",
           "link": "/1-基础知识/JavaScript/什么是原型"
         },
