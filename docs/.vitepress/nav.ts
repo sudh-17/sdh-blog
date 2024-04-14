@@ -4,19 +4,15 @@ export default [
     "items": [
       {
         "text": "HTML",
-        "link": "/1-基础知识/HTML/index.md"
+        "link": "/1-基础知识/HTML/事件传播的阶段和顺序.md"
       },
       {
         "text": "JavaScript",
         "link": "/1-基础知识/JavaScript/EsModule的工作原理.md"
       },
       {
-        "text": "nodejs",
-        "link": "/1-基础知识/nodejs/使用全局cmd命令执行node小程序.md"
-      },
-      {
-        "text": "uu",
-        "link": "/1-基础知识/uu"
+        "text": "Node",
+        "link": "/1-基础知识/Node/使用全局cmd命令执行node小程序.md"
       }
     ]
   },

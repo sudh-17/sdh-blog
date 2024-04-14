@@ -4,14 +4,6 @@ export default {
       "text": "HTML",
       "items": [
         {
-          "text": "index",
-          "link": "/1-基础知识/HTML/index"
-        },
-        {
-          "text": "test",
-          "link": "/1-基础知识/HTML/test"
-        },
-        {
           "text": "事件传播的阶段和顺序",
           "link": "/1-基础知识/HTML/事件传播的阶段和顺序"
         }
@@ -49,13 +41,13 @@ export default {
       ]
     }
   ],
-  "/1-基础知识/nodejs/": [
+  "/1-基础知识/Node/": [
     {
-      "text": "nodejs",
+      "text": "Node",
       "items": [
         {
           "text": "使用全局cmd命令执行node小程序",
-          "link": "/1-基础知识/nodejs/使用全局cmd命令执行node小程序"
+          "link": "/1-基础知识/Node/使用全局cmd命令执行node小程序"
         }
       ]
     }
