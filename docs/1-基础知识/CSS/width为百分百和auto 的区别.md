@@ -39,7 +39,7 @@
 </html>
 ```
 效果如下
-![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/05e16a6a6e704be6857ad880e1a266be.png)
+![alt text](images/image.png)
 当两者都没有 padding 或 margin 或 border 时 效果都是一样的，都能填满父元素的content 部分
 ## 二、当两者的子元素有 border 或 padding 或 margin 的时候
 示例代码
@@ -88,7 +88,7 @@
 </html>
 ```
 效果图如下：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/d216282811db45b299f5395200591faa.png)
+![alt text](images/image-1.png)
 当两者有 padding 或 margin 或 border 时， auto 宽度的子元素 content 不再和父元素的content 对等，而是
 ```
 父元素content =  子元素 content + padding + border + margin
