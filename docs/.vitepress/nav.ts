@@ -50,25 +50,25 @@ export default [
       }
     ]
   },
-  {
-    "text": "项目",
-    "items": []
-  },
+  // {
+  //   "text": "项目",
+  //   "items": []
+  // },
   {
     "text": "工具",
     "items": [
-      {
-        "text": "prettier 的使用",
-        "link": "/5-工具/prettier 的使用"
-      },
+      // {
+      //   "text": "prettier 的使用",
+      //   "link": "/5-工具/prettier 的使用"
+      // },
       {
         "text": "vscode",
         "link": "/5-工具/vscode/vscode 使用表达式生成html.md"
       }
     ]
   },
-  {
-    "text": "其他",
-    "items": []
-  }
+  // {
+  //   "text": "其他",
+  //   "items": []
+  // }
 ]

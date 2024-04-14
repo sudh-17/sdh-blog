@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import sidebar from './sidebar.ts'
+import sidebar from './sidebar/index.ts'
 import nav from './nav.ts'
 
 export default defineConfig({
