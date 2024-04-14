@@ -78,4 +78,15 @@ export default {
       ],
     },
   ],
+  '/1-基础知识/网络/': [
+    {
+      text: '网络',
+      items: [
+        {
+          text: '域名、CDN、Nginx',
+          link: '/1-基础知识/网络/域名、CDN、Nginx基本概念和设置',
+        },
+      ],
+    },
+  ],
 };

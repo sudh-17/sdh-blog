@@ -22,6 +22,10 @@ export default [
         text: 'Vue',
         link: '/1-基础知识/Vue/vue2 配置文件中增加 自定义webpack 插件.md',
       },
+      {
+        text: '网络',
+        link: '/1-基础知识/网络/域名、CDN、Nginx基本概念和设置.md',
+      },
     ],
   },
   {
