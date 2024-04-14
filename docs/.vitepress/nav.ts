@@ -13,7 +13,11 @@ export default [
       {
         "text": "Node",
         "link": "/1-基础知识/Node/使用全局cmd命令执行node小程序.md"
-      }
+      },
+      {
+        "text": "CSS",
+        "link": "/1-基础知识/CSS/width为百分百和auto 的区别.md"
+      },
     ]
   },
   {
