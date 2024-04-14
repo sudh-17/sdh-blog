@@ -1,14 +1,10 @@
 <template>
-  <h1>This is text panel</h1>  
+  <h1>This is text panel</h1>
   <button>click me</button>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
-</style>
+<style></style>

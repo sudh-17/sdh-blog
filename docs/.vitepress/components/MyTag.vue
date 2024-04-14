@@ -1,13 +1,13 @@
 <template>
   <span :class="$style.tag">
     <slot />
-  </span>  
+  </span>
 </template>
 
 <script>
 export default {
-  name: 'MyTag'
-}
+  name: 'MyTag',
+};
 </script>
 
 <style module>
