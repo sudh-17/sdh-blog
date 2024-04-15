@@ -14,5 +14,16 @@ export default {
         },
       ],
     },
+  ],
+  '/3-工程化/Webpack/': [
+    {
+      text: 'Webpack',
+      items: [
+        {
+          text: 'require.context 批量引入模块',
+          link: '/3-工程化/Webpack/require.context 批量引入模块.md',
+        },
+      ],
+    },
   ]
 }

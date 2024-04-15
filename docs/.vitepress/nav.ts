@@ -64,6 +64,10 @@ export default [
         text: 'Nuxt',
         link: '/3-工程化/Nuxt/在工程中自动删除掉无用文件',
       },
+      {
+        text: 'Webpack',
+        link: '/3-工程化/Webpack/require.context 批量引入模块',
+      },
     ],
   },
   // {
