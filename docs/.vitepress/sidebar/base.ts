@@ -41,17 +41,17 @@ export default {
       ],
     },
   ],
-  '/1-基础知识/Node/': [
-    {
-      text: 'Node',
-      items: [
-        {
-          text: '使用全局cmd命令执行node小程序',
-          link: '/1-基础知识/Node/使用全局cmd命令执行node小程序',
-        },
-      ],
-    },
-  ],
+  // '/1-基础知识/Node/': [
+  //   {
+  //     text: 'Node',
+  //     items: [
+  //       {
+  //         text: '使用全局cmd命令执行node小程序',
+  //         link: '/1-基础知识/Node/使用全局cmd命令执行node小程序',
+  //       },
+  //     ],
+  //   },
+  // ],
   '/1-基础知识/CSS/': [
     {
       text: 'CSS',
