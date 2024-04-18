@@ -60,6 +60,10 @@ export default {
           text: 'width为100%和auto 的区别',
           link: '/1-基础知识/CSS/width为百分百和auto 的区别',
         },
+        {
+          text: '使用伪元素加变形做文字阴影效果',
+          link: '/1-基础知识/CSS/使用伪元素加变形做文字阴影效果',
+        },
       ],
     },
   ],
