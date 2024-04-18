@@ -71,29 +71,19 @@ features:
 </style>
 
 <script setup>
-import { onMounted, createApp } from 'vue'
-import TextPanel from './.vitepress/components/TextPanel.vue'
+// import { onMounted, createApp } from 'vue'
+// import TextPanel from './.vitepress/components/TextPanel.vue'
 
-onMounted(() => {
-  let text1 = document.querySelector('#text1')
-  if (!text1) {
-    const container = document.querySelector('.image-container')
-    text1 = document.createElement('div')
-    text1.setAttribute('id', 'text1')
-    container.appendChild(text1)
-  }
+// onMounted(() => {
+  // let text1 = document.querySelector('#text1')
+  // if (!text1) {
+  //   const container = document.querySelector('.image-container')
+  //   text1 = document.createElement('div')
+  //   text1.setAttribute('id', 'text1')
+  //   container.appendChild(text1)
+  // }
   
-  const app = createApp(TextPanel)
-    .mount('#text1')
-
-  // const imgBg = document.querySelector('.image-bg')
-  // const img = document.createElement('img')
-
-  // img.classList.add('img1')
-  // img.src = 'https://img2.baidu.com/it/u=3571543751,602192021&fm=253&fmt=auto&app=120&f=JPEG?w=1000&h=800'
-  // container.appendChild(img)
-
-
-  // imgBg.innerHTML = `<img class="img1" src="https://img2.baidu.com/it/u=3571543751,602192021&fm=253&fmt=auto&app=120&f=JPEG?w=1000&h=800" alt="">`
-})
+  // const app = createApp(TextPanel)
+  //   .mount('#text1')
+// })
 </script>

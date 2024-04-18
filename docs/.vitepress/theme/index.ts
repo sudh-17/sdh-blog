@@ -2,6 +2,8 @@
 import DefaultTheme from 'vitepress/theme';
 import MyTag from '../components/MyTag.vue';
 import Basic from '../layouts/Basic.vue';
+import MyLayout  from './MyLayout.vue';
+// console.log(11111, DefaultTheme);
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -11,4 +13,5 @@ export default {
     app.component(MyTag.name, MyTag);
     app.component(Basic.name, Basic);
   },
+  Layout: MyLayout,
 };
