@@ -4,8 +4,12 @@ import nav from './nav.ts';
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: '我的网站',
-  description: 'A VitePress Site lala',
+  title: '树袋熊的博客',
+  description: '树袋熊的博客',
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/sdh-blog/koala1.png' }],
+    // ['link', { rel: 'icon', type: 'image/svg+xml', href: '/vitepress-logo-mini.svg' }],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav,
@@ -16,7 +20,7 @@ export default defineConfig({
     ],
 
     // logo 以及logo 标题
-    logo: '/ico.png',
+    logo: '/koala1.png',
     siteTitle: '树袋熊的博客',
     outline: {
       label: '页面导航',
@@ -41,12 +45,4 @@ export default defineConfig({
       lazyLoading: true,
     },
   },
-
-  // locales: {
-  //   root: { label: 'English', ...en },
-  //   zh: { label: '简体中文', ...zh },
-  //   pt: { label: 'Português', ...pt },
-  //   ru: { label: 'Русский', ...ru },
-  //   ko: { label: '한국어', lang: 'ko-KR', link: 'https://vitepress.vuejs.kr/' }
-  // }
 });
