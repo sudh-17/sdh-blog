@@ -29,9 +29,9 @@ export default defineConfig({
     // 页脚
     footer: {
       message:
-        'Released under the <a href="https://github.com/sudh-17/sdh-blog/blob/main/LICENSE">MIT License</a>.',
+        'Released under the <a href="https://github.com/sudh-17/sdh-blog/blob/master/LICENSE">MIT License</a>.',
       copyright:
-        'Copyright © 2019-present <a href="https://github.com/yyx990803">树袋熊</a>',
+        'Copyright © 2023-present <a href="https://github.com/sudh-17">树袋熊</a>',
     },
   },
 
