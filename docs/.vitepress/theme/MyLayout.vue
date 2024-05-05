@@ -2,6 +2,7 @@
 <script setup>
 import DefaultTheme from 'vitepress/theme'
 import TextPanel from '../components/TextPanel.vue'
+// import Particle from '../components/Particle.vue'
 
 const { Layout } = DefaultTheme
 
@@ -9,11 +10,15 @@ const { Layout } = DefaultTheme
 
 <template>
   <Layout>
-    <!-- <template #aside-outline-before>
-      My custom sidebar top content
+    <!-- <template #home-hero-before>
+      <Particle class="particle" />
     </template> -->
     <template #home-hero-image>
       <TextPanel />
     </template>
   </Layout>
 </template>
+
+<style scoped>
+
+</style>
