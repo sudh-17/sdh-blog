@@ -13,9 +13,9 @@ const { Layout } = DefaultTheme
     <!-- <template #home-hero-before>
       <Particle class="particle" />
     </template> -->
-    <template #home-hero-image>
+    <!-- <template #home-hero-image>
       <TextPanel />
-    </template>
+    </template> -->
   </Layout>
 </template>
 

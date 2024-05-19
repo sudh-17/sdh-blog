@@ -4,8 +4,8 @@ import nav from './nav.ts';
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: '树袋熊的博客',
-  description: '树袋熊的博客',
+  title: '前端学思录',
+  description: '前端学思录',
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/sdh-blog/koala1.png' }],
     // ['link', { rel: 'icon', type: 'image/svg+xml', href: '/vitepress-logo-mini.svg' }],
@@ -21,7 +21,7 @@ export default defineConfig({
 
     // logo 以及logo 标题
     logo: '/koala1.png',
-    siteTitle: '树袋熊的博客',
+    siteTitle: '前端学思录',
     outline: {
       label: '页面导航',
     },
