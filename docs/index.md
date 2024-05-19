@@ -7,7 +7,7 @@ hero:
   text: SDX'S BLOG
   tagline: 默默耕耘技术田，与您共探编程道。
   image:
-    src: ./public/ko.png
+    src: /ko.png
     alt: '树袋熊'
   actions:
     - theme: brand
