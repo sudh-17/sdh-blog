@@ -3,12 +3,12 @@
 layout: home
 
 hero:
-  name: 树袋熊的博客
+  name: 前端学思录
   text: SDX'S BLOG
   tagline: 默默耕耘技术田，与您共探编程道。
   image:
-    # src: https://img2.baidu.com/it/u=3571543751,602192021&fm=253&fmt=auto&app=120&f=JPEG?w=1000&h=800
-    alt: '银河之美'
+    src: ./public/ko.png
+    alt: '树袋熊'
   actions:
     - theme: brand
       text: 学习之路
@@ -55,16 +55,14 @@ features:
   :root {
     --vp-home-hero-image-filter: blur(68px);
   }
+
+  ::v-deep .name, ::v-deep .text {
+    /* line-height: 64px; */
+    font-size: 36px;
+  }
 }
 
-/* .img1 {
-  width: 350px;
-  height: 150px;
-  object-fit: cover;
-  transition: opacity 1s ease-in-out;
-  filter: none;
-  z-index: 1;
-} */
+
 #text1 {
   z-index: 1;
 }
