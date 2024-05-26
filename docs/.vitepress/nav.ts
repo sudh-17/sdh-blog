@@ -3,6 +3,10 @@ export default [
     text: '基础知识',
     items: [
       {
+        text: '学习之路',
+        link: '/1-基础知识/study.md',
+      },
+      {
         text: 'HTML',
         link: '/1-基础知识/HTML/事件传播的阶段和顺序.md',
       },
