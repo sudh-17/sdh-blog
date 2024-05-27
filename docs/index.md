@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 学习之路
-      link: /1-基础知识/HTML/事件传播的阶段和顺序
+      link: /1-基础知识/study.md
     # - theme: alt
     #   text: 工具箱
     #   link: /api-examples
