@@ -38,6 +38,10 @@ export default {
           text: '闭包代码的提权漏洞',
           link: '/1-基础知识/JavaScript/闭包代码的提权漏洞',
         },
+        {
+          text: '包装类型和装箱、拆箱',
+          link: '/1-基础知识/JavaScript/包装类型和装箱、拆箱',
+        },
       ],
     },
   ],
