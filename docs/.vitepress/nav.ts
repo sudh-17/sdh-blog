@@ -14,6 +14,10 @@ export default [
         text: 'JavaScript',
         link: '/1-基础知识/JavaScript/EsModule的工作原理.md',
       },
+      {
+        text: 'TypeScript',
+        link: '/1-基础知识/TS/type 与 interface 的区别.md',
+      },
       // {
       //   text: 'Node',
       //   link: '/1-基础知识/Node/使用全局cmd命令执行node小程序.md',

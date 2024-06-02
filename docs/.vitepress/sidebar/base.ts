@@ -45,6 +45,17 @@ export default {
       ],
     },
   ],
+  '/1-基础知识/TS/': [
+    {
+      text: 'TypeScript',
+      items: [
+        {
+          text: 'type 与 interface 的区别',
+          link: '/1-基础知识/TS/type 与 interface 的区别',
+        },
+      ],
+    },
+  ],
   // '/1-基础知识/Node/': [
   //   {
   //     text: 'Node',
