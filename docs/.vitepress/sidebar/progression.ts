@@ -20,6 +20,10 @@ export default {
           text: '手写防抖和节流',
           link: '/2-进阶技能/手写编程/手写防抖和节流',
         },
+        {
+          text: '手写实现 Promise.all',
+          link: '/2-进阶技能/手写编程/手写实现 Promise.all',
+        },
       ],
     },
   ],
