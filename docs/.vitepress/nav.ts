@@ -84,6 +84,10 @@ export default [
         text: 'Webpack',
         link: '/3-工程化/Webpack/require.context 批量引入模块',
       },
+      {
+        text: 'Vite',
+        link: '/3-工程化/Vite/Vite 对 CommonJS 和 ESM 的依赖处理',
+      },
     ],
   },
   // {

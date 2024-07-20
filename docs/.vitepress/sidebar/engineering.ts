@@ -1,5 +1,4 @@
 export default {
-
   '/3-工程化/Nuxt/': [
     {
       text: 'Nuxt',
@@ -25,5 +24,16 @@ export default {
         },
       ],
     },
-  ]
-}
+  ],
+  '/3-工程化/Vite/': [
+    {
+      text: 'Vite',
+      items: [
+        {
+          text: 'Vite 对 CommonJS 和 ESM 的依赖处理',
+          link: '/3-工程化/Vite/Vite 对 CommonJS 和 ESM 的依赖处理.md',
+        },
+      ],
+    },
+  ],
+};
