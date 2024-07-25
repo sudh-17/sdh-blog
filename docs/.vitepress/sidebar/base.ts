@@ -105,6 +105,17 @@ export default {
       ],
     },
   ],
+  '/1-基础知识/React/': [
+    {
+      text: 'React',
+      items: [
+        {
+          text: 'React 知识点总结',
+          link: '/1-基础知识/React/React 知识点总结',
+        },
+      ],
+    },
+  ],
   '/1-基础知识/网络/': [
     {
       text: '网络',
